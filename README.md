@@ -1,5 +1,5 @@
 # Horizontal Pod Autoscaling (HPA) in Kubernetes
-Imagine you are managing an online store, and you’ve deployed your store’s website in a Kubernetes cluster. The website is built using multiple pods, which handle different parts of the website like displaying products, handling user accounts, processing orders, etc.
+🚀Imagine you are managing an online store, and you’ve deployed your store’s website in a Kubernetes cluster. The website is built using multiple pods, which handle different parts of the website like displaying products, handling user accounts, processing orders, etc.
 
 You want to ensure that your website can handle sudden traffic spikes (e.g., during a big sale) without crashing, but you also don’t want to waste resources by running too many pods when traffic is low.
 
@@ -154,7 +154,7 @@ For Minikube:
 minikube addons enable metrics-server
 ```
 
-For other Kubernetes clusters(one master cluster)
+For other Kubernetes clusters(one master node cluster)
 
 ```bash
 kubectl apply -f https://github.com/kubernetes-sigs/metrics-server/releases/latest/download/components.yaml
