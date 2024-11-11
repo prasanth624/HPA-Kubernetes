@@ -1,4 +1,4 @@
-# Horizontal Pod Autoscaling (HPA) in Kubernetes
+# Horizontal Pod Autoscaling (HPA) in Kubernetes⚖️
 🚀Imagine you are managing an online store, and you’ve deployed your store’s website in a Kubernetes cluster. The website is built using multiple pods, which handle different parts of the website like displaying products, handling user accounts, processing orders, etc.
 
 You want to ensure that your website can handle sudden traffic spikes (e.g., during a big sale) without crashing, but you also don’t want to waste resources by running too many pods when traffic is low.
@@ -34,13 +34,12 @@ HPA solves this by automatically scaling the number of pods up or down based on 
    For HPA to work, Kubernetes requires a metrics server to collect data on pod resources like CPU and memory. This data is used by HPA to make scaling decisions.
 
 
-## Let's do some Hands-On
+## Let's do some Hands-On🧑‍💻
 ### Prerequisites
 
 - Kubernetes Cluster (I have used Minikube)
 - kubectl
 
----
 
 ## Steps
 
